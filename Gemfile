@@ -1,20 +1,22 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',        '5.1.2'
+gem 'rails',          '5.1.2'
+# Use Twitter Bootstrap for responsiive design
+gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
-gem 'puma',         '3.9.1'
+gem 'puma',           '3.9.1'
 # Use SCSS for stylesheets
-gem 'sass-rails',   '5.0.6'
+gem 'sass-rails',     '5.0.6'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier',     '3.2.0'
+gem 'uglifier',       '3.2.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '4.2.2'
-gem 'jquery-rails', '4.3.1'
+gem 'coffee-rails',   '4.2.2'
+gem 'jquery-rails',   '4.3.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks',   '5.0.1'
+gem 'turbolinks',     '5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder',     '2.7.0'
+gem 'jbuilder',       '2.7.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
