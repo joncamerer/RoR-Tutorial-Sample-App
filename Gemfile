@@ -21,6 +21,9 @@ gem 'jbuilder',       '2.7.0'
 gem 'bcrypt',         '3.1.11'
 # Use Faker to create dummy accounts
 gem 'faker',          '1.7.3'
+# Use will_paginate for index pagination
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
