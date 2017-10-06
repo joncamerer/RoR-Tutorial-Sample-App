@@ -19,6 +19,8 @@ gem 'turbolinks',     '5.0.1'
 gem 'jbuilder',       '2.7.0'
 # Use bcrypt to hash user passwords for security
 gem 'bcrypt',         '3.1.11'
+# Use Faker to create dummy accounts
+gem 'faker',          '1.7.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
