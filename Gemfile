@@ -21,6 +21,12 @@ gem 'jbuilder',       '2.7.0'
 gem 'bcrypt',         '3.1.11'
 # Use Faker to create dummy accounts
 gem 'faker',          '1.7.3'
+# Use carrierwave for image upload
+gem 'carrierwave',    '1.1.0'
+# Use mini_magick for image resizing
+gem 'mini_magick',    '4.7.0'
+# Use fog  for image upload in production
+gem 'fog',            '1.40.0'
 # Use will_paginate for index pagination
 gem 'will_paginate',           '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
